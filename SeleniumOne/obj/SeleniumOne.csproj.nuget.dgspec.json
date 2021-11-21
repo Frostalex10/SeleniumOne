@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Project\\c\\SeleniumOne\\SeleniumOne\\SeleniumOne.csproj": {}
+    "E:\\Project\\c\\Selenium\\SeleniumOne\\SeleniumOne.csproj": {}
   },
   "projects": {
-    "E:\\Project\\c\\SeleniumOne\\SeleniumOne\\SeleniumOne.csproj": {
+    "E:\\Project\\c\\Selenium\\SeleniumOne\\SeleniumOne.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\c\\SeleniumOne\\SeleniumOne\\SeleniumOne.csproj",
+        "projectUniqueName": "E:\\Project\\c\\Selenium\\SeleniumOne\\SeleniumOne.csproj",
         "projectName": "SeleniumOne",
-        "projectPath": "E:\\Project\\c\\SeleniumOne\\SeleniumOne\\SeleniumOne.csproj",
+        "projectPath": "E:\\Project\\c\\Selenium\\SeleniumOne\\SeleniumOne.csproj",
         "packagesPath": "C:\\Users\\SuvidhaTech\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\c\\SeleniumOne\\SeleniumOne\\obj\\",
+        "outputPath": "E:\\Project\\c\\Selenium\\SeleniumOne\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SuvidhaTech\\AppData\\Roaming\\NuGet\\NuGet.Config",
