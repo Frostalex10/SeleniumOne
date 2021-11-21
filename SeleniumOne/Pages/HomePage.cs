@@ -8,10 +8,13 @@ namespace SeleniumOne.Pages
     class HomePage : DriverHelper
     {
         IWebElement lnkLogin => Driver.FindElement(By.LinkText("Login"));
-        IWebElement lnkLogout => Driver.FindElement(By.LinkText("Log off"));
-        public void ClickLogin() => lnkLogin.Click();
 
-       public bool IsLogOffExist => lnkLogin.Displayed;
+
+       // IWebElement lnkLogin => Driver.FindElement(By.LinkText("Login"));
+        IWebElement lnkLogout => Driver.FindElement(By.LinkText("Log off"));
+       public void ClickLogin() => lnkLogin.Click();
+
+        public bool IsLogoutExist() => lnkLogout.Displayed;
 
     }
 }

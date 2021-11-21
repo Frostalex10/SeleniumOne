@@ -7,19 +7,21 @@ namespace SeleniumOne.Pages
 {
     class LoginPage:DriverHelper
     {
-        IWebElement lnkLogin => Driver.FindElement(By.LinkText("Login"));
-        public void ClickLogin() => lnkLogin.Click();
 
-        public void EnterUserNameAndPassword(string username, string password)
+        IWebElement UsernameEnter => Driver.FindElement(By.Id("UserName"));
+        IWebElement passwordEnter => Driver.FindElement(By.Id("Password"));
+        IWebElement LonginBtn => Driver.FindElement(By.XPath("//input[@value='Log in']"));
+      
+
+      public void EnterUsernameAndPassword(string username, string password)
         {
-            Driver.FindElement(By.Id("UserName")).SendKeys(username);
-            Driver.FindElement(By.Id("Password")).SendKeys(password);
-            
+            UsernameEnter.SendKeys(username);
+            passwordEnter.SendKeys(password);
         }
 
-        public void LoginClick()
+        public void ClickLoginBtn()
         {
-            Driver.FindElement(By.XPath("//input[@value='Log in']")).Click();
+            LonginBtn.Click();
         }
 
 

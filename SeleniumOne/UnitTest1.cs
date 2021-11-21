@@ -30,14 +30,14 @@ namespace SeleniumOne
         [Test]
         public void LoginTest()
         {
-            //Driver.Navigate().GoToUrl("http://eaapp.somee.com");
-            //HomePage homePage = new HomePage();
-            //LoginPage loginPage = new LoginPage();
-            //homePage.ClickLogin();
-            //loginPage.EnterUserNameAndPassword("admin", "password");
-            //loginPage.LoginClick();
-            //Assert.That(homePage.IsLogOffExist, Is.True, "No Logg Off Button");
-            Assert.Pass();
+            Driver.Navigate().GoToUrl("http://eaapp.somee.com");
+            HomePage homePage = new HomePage();
+            homePage.ClickLogin();
+            LoginPage loginPage = new LoginPage();
+            loginPage.EnterUsernameAndPassword("admin", "password");
+            loginPage.ClickLoginBtn();
+            Assert.That(homePage.IsLogoutExist, Is.True, "No Logg Off Button");
+          //  Assert.Pass();
         }
  
     }
